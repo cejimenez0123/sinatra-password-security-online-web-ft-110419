@@ -65,5 +65,5 @@ end
 			User.find(session[:id])
 		end
 	end
-
+end
 end
