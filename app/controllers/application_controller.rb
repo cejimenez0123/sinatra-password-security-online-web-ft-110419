@@ -58,7 +58,7 @@ class ApplicationController < Sinatra::Base
 
 	helpers do
 		def logged_in?
-			!!session[:id]
+			session[:id] != nil
 		end
 
 		def current_user
